@@ -1,9 +1,9 @@
 services:
 - type: web
-  name: ghost
+  name: ghostV3
   env: docker
   autoDeploy: false
   disk:
-    name: ghost
+    name: ghostV3
     mountPath: /var/lib/ghost/content
     sizeGB: 10 #Feel free to change this to suit your needs.
